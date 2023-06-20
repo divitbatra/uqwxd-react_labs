@@ -73,6 +73,7 @@ const App = () => {
         <input
           type="text"
           onChange={(e) => setTodo(e.target.value)}
+          placeholder="Add a new task"
           value={todo}
         />
         <button type="submit">Add Todo</button>
